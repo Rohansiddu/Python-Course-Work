@@ -1,0 +1,5 @@
+a="hello café 😁 😊 😒"
+print(a.encode())
+
+
+print(b'hello caf\xc3\xa9 \xf0\x9f\x98\x81 \xf0\x9f\x98\x8a \xf0\x9f\x98\x92'.decode())
