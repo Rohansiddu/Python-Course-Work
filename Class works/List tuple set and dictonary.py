@@ -160,3 +160,41 @@ print(data.get('age',"Key went to tour"))'''
 print(data)
 print(data.setdefault('name'))
 print(data)'''
+
+
+
+
+
+#--------------------------SETS-------------------------------------
+#contains unique elements
+#same as mathematical operations
+'''s={1,False,(1,2,3,4),1.1,'string'}
+print(1 in s)
+s.add(9999)
+print(s)
+s.remove(9999)
+print(s)'''
+# only add remove is allowed
+# membership operations allowed
+# no slicing, no indexing
+
+'''names={'tharani','ravali','lohith','vijay'}
+names1={'harsha','rakesh','vijay','ravali'}
+print(names & names1) #common terms
+print(names1-names) #unique in names1
+print(names-names1) #unique in names
+print(names1 ^ names) #unique elwmwnts from both'''
+
+l={1,2,3,4,5}
+m={3,4,5,6}
+print(l.issubset(m))
+print(l.issuperset(m))
+print(m.issuperset(l))
+print(m.issubset(l))
+
+print(m.intersection(l))
+m.intersection_update(l)
+print(m,l)
+
+frozen=frozenset(l)  #cannot be added or removed from the frozenset
+print(type(frozen))
