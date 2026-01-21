@@ -1,0 +1,8 @@
+read: read lines from the file
+Write: write new lines in the file
+append: to write continution of the file
+file=open('filename.extension','')
+print(file.read())           #reads the overall file
+print(file.readline())       #reads the first line of the file
+print(file.readlines())      #reads the overall file and list them by line
+
