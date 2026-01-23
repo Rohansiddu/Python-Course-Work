@@ -1,0 +1,5 @@
+Class: 
+    class is blue print
+
+
+--> NO protection in procedual programing
