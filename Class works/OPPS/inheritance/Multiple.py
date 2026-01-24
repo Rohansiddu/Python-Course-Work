@@ -17,8 +17,18 @@ class InstagramV3(InstagramV2):
         print("You can add note")
     def highlights(self):
         print('You can add stories to highlights')
+class Autoscroll:
+    def scroll(self):
+        print("Now you can turn on the autoscroll")
+class Summarize:
+    def summarizemsg(self):
+        print("Now the mwssage can be simmarized")
+class InstagramV4(InstagramV3,Autoscroll,Summarize):
+    def repost(self):
+        print("You can re-post the stories")
+
         
-print("Abhinoc - InstagramV1")
+print("Abhinov - InstagramV1")
 abhinov = InstagramV1()
 abhinov.post()
 abhinov.reel()
@@ -38,3 +48,15 @@ Vijay.story()
 Vijay.restriction()
 Vijay.note()
 Vijay.highlights()
+
+print("Rohan - InstagramV4")
+Rohan = InstagramV4()
+Rohan.post()
+Rohan.reel()
+Rohan.story()
+Rohan.restriction()
+Rohan.note()
+Rohan.highlights()
+Rohan.scroll()
+Rohan.summarizemsg()
+Rohan.repost()
